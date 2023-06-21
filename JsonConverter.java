@@ -25,7 +25,7 @@ class Main {
     public static void main(String[] args) {
         String filePath = "C:\\Users\\dmala\\IdeaProjects\\aquawarine\\file.txt";
         List<User> users = readUsersFromFile(filePath);
-        String jsonFilePath = "user.json";
+        String jsonFilePath = "C:\\Users\\dmala\\IdeaProjects\\aquawarine\\user.json";
         writeUsersToJsonFile(users, jsonFilePath);
     }
 
