@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 public class WordFrequencyCounter {
     public static void main(String[] args) {
-        String filePath = "words.txt";
+        String filePath = "C:\\Users\\dmala\\IdeaProjects\\aquawarine\\file.txt";
         Map<String, Integer> wordFrequencies = calculateWordFrequencies(filePath);
         printWordFrequencies(wordFrequencies);
     }
