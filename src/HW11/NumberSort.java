@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.stream.Collectors;
 
-class NumberSorter {
+class NumberSort {
     public static String extractAndSortNumbers(String[] strings) {
         return Arrays.stream(strings)
                 .flatMap(s -> Arrays.stream(s.split(", ")))
